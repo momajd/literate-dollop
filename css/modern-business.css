@@ -1,0 +1,154 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+
+ html, body {
+     height: 100%;
+ }
+
+body {
+  padding-top: 54px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+/* Home Page */
+
+.navbar-brand {
+  font-family: 'Libre Baskerville', serif;
+}
+
+header video {
+    position: fixed;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 4000px;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-55%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+header {
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: lightblue;
+    opacity: 0.5;
+    z-index: -1
+}
+
+.welcome-text {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 600px;
+  height: 190px;
+  border: 2px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 240px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.welcome-text a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header .title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 48px;
+}
+
+header .sub-title {
+  font-family: 'Cinzel', serif;
+  font-size: 26px;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:750px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header video {
+      display: none;
+    }
+
+    .welcome-text {
+      width: auto;
+      max-width: 400px;
+      margin-top: 50px;
+    }
+
+    header .title {
+      font-size: 30px;
+    }
+
+    header .sub-title {
+      font-family: 'Cinzel', serif;
+      font-size: 18px;
+    }
+
+    .mobile-background {
+      height: 100%;
+      width: 100%;
+      background-image: url(../images/mobile_background.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+}
+
+@media(min-width:750px) {
+  .container-fluid {
+    background-color: white;
+    padding: 0px 140px 0px 140px;
+  }
+}
